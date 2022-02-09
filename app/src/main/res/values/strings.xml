@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Music Player</string>
+    <string name="album_art">Album Art</string>
+    <string name="playingFrom">Playing From Artist</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="example_name">Name of The Song</string>
+    <string name="refresh_button">refresh Button</string>
+    <string name="current_time_example">00:00</string>
+    <string name="example_remaining_time">04:00</string>
 </resources>

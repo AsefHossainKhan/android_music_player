@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btm_container_corner_radius">36dp</dimen>
+    <dimen name="player_fragment_icon_normal">32dp</dimen>
+    <dimen name="player_frag_icon_big">64dp</dimen>
+    <dimen name="textview_playing_from_padding_top">10dp</dimen>
+    <dimen name="text_playing_from">24sp</dimen>
+    <dimen name="textview_artist_name_padding_top">3dp</dimen>
+    <dimen name="textview_artist_name_padding_bottom">10dp</dimen>
+    <dimen name="text_artist_name">24sp</dimen>
+    <dimen name="bottom_container_height">500dp</dimen>
+    <dimen name="margin_time_horizontal">10dp</dimen>
+    <dimen name="player_seekbar_margin_top">40dp</dimen>
+    <dimen name="padding_song_name">10dp</dimen>
+    <dimen name="text_song_name">20sp</dimen>
+    <dimen name="buttons_padding">10dp</dimen>
+    <dimen name="bottom_button_top_margin">15dp</dimen>
+    <dimen name="art_card_corner_radius">36dp</dimen>
+    <dimen name="album_art_image">300dp</dimen>
+</resources>

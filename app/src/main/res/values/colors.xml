@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="btm_container_start">#292225</color>
+    <color name="btm_container_end">#D0000000</color>
+    <color name="player_frag_icon_tint">#FFFFFF</color>
+    <color name="whole_screen_end">#1D1E20</color>
+    <color name="whole_screen_start">#3B2E34</color>
+    <color name="status_bar_color">#FF3B2E34</color>
+    <color name="seekbar_thumb_tint">#A54F4F</color>
+    <color name="buttons_background_tint">#00000000</color>
+    <color name="album_art_tint">#57000000</color>
 </resources>
