@@ -113,11 +113,11 @@ class PlayerService : Service() {
             .build()
         playerNotificationManager!!.setPlayer(player)
 
-//        mediaSession = MediaSessionCompat(baseContext, "audio_demo")
-//        mediaSession!!.isActive = true
-//        playerNotificationManager!!.setMediaSessionToken(mediaSession!!.sessionToken)
+        mediaSession = MediaSessionCompat(baseContext, "audio_demo")
+        mediaSession!!.isActive = true
+        playerNotificationManager!!.setMediaSessionToken(mediaSession!!.sessionToken)
 
-//        mediaSessionConnector = MediaSessionConnector(mediaSession!!)
+        mediaSessionConnector = MediaSessionConnector(mediaSession!!)
 //        mediaSessionConnector.setQueueNavigator(object : TimelineQueueNavigator(mediaSession) {
 //            override fun getMediaDescription(
 //                player: Player,
@@ -126,7 +126,7 @@ class PlayerService : Service() {
 //                TODO()
 //            }
 //        })
-//        mediaSessionConnector!!.setPlayer(player)
+        mediaSessionConnector!!.setPlayer(player)
     }
 
     override fun onDestroy() {
