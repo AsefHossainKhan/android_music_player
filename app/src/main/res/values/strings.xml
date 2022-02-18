@@ -7,4 +7,7 @@
     <string name="refresh_button">refresh Button</string>
     <string name="current_time_example">00:00</string>
     <string name="example_remaining_time">04:00</string>
+    <string name="channel_name">Channel er name</string>
+    <string name="channel_description">Channel er description</string>
+
 </resources>
