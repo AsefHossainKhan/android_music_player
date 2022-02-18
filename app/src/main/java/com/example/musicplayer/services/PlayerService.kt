@@ -35,15 +35,19 @@ class PlayerService : Service() {
         }
     }
 
-    //    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
-//        return START_STICKY
-//    }
+    fun playPausePlayer() {
+        if (player!!.isPlaying)
+            player!!.pause()
+        else
+            player!!.play()
+    }
+
     override fun onCreate() {
         super.onCreate()
         player = ExoPlayer.Builder(applicationContext).build()
         Timber.e("End")
         // Build the media item.
-        val url = "https://dns4.vippendu.com/download/128k-difhc/Avash.mp3"
+        val url = "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_1MG.mp3"
         val url2 =
             "https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8"
 //        val mediaItem = MediaItem.fromUri(url)

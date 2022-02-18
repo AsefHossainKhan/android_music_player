@@ -29,7 +29,13 @@ class PlayerFragment : Fragment(), Player.Listener, ServiceConnection {
         // Inflate the layout for this fragment
         binding = FragmentPlayerBinding.inflate(layoutInflater)
         startService()
+        initOnclicks()
         return binding.root
+    }
+    private fun initOnclicks() {
+        binding.playButton.setOnClickListener {
+            playerService?.playPausePlayer()
+        }
     }
 
     private fun startService() {
