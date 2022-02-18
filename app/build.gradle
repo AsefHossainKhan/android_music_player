@@ -69,8 +69,8 @@ dependencies {
     //Exo player
     implementation 'com.google.android.exoplayer:exoplayer:2.16.1'
 
-    //Media Session Connection
-    implementation 'com.google.android.exoplayer:extension-mediasession:2.10.8'
+    //Exo Player Media Session
+    implementation 'com.google.android.exoplayer:extension-mediasession:2.16.1'
 
     //Retrofit API Client
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
